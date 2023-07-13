@@ -3,13 +3,105 @@
      font-family: 'Open Sans', sans-serif;
  }
 
+ .header{
+    background: #FFF8F3;
+    width: fixed  ;
+height:  985px;
+flex-shrink: 0;
+ }
  nav {
 
      display: flex;
      align-items: center;
      justify-content: space-between;
+     margin: 0 200px;
  }
+ .banner{
+    width: 1600px;
+height: 837px;
+flex-shrink: 0;
+ }
+.pic{
+    margin-top: -500px;
+    margin-left: 1250px;
+ 
+}
 
+
+
+
+
+.h1{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  margin-top: 297px;  
+  margin-left: 230px;
+  
+
+
+}
+.h2{
+    margin-top:  -30px; 
+    color: var(--dark-01, #181818);
+font-family: Open Sans;
+font-size: 85px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 230px;
+
+
+}
+.cv{
+    margin-left: 230px;
+    color: var(--white-color, #FFF);
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 200px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FD6E0A;
+
+
+
+
+}
+
+.con{
+    color: #FD6E0A;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 160px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #FD6E0A;
+background: #FFF8F3;
+}
+.p1{
+    margin-top:  -30px; 
+    margin-left: 230px;
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+width: 585px;
+}
  .mary {
 
      color: olivedrab;
@@ -53,7 +145,4 @@ height: 64px;
 flex-shrink: 0;
 border-radius: 5px;
 background: #FD6E0A;
- }
- nav{
- 
  }
